@@ -27,6 +27,13 @@ public class EstimatArrayList {
 		Scanner sc = new Scanner(System.in);
 		miLista.add(1, 89);
 		System.out.println(miLista);
+		
+		miLista.set(1, 45); // substitueix el que hi ha en la posició indicada
+		System.out.println(miLista);
+		
+		// ELIMINAR COSETES
+		miLista.remove(0);
+		System.out.println(miLista);
 
 		// RECUPERAR DADES
 		System.out.println(miLista.get(0)); // equivalent array[0]
