@@ -3,7 +3,7 @@ package strings;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class InicisString {
+public class StringIStringBuilder {
 
 	public static void main(String[] args) {
 
