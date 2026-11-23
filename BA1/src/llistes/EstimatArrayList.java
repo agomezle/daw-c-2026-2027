@@ -87,6 +87,7 @@ public class EstimatArrayList {
 		for(int i = 0; i < miLista.size(); i++) {
 			System.out.print(miLista.get(i)+" ");
 		}
+		
 	}
 
 }
