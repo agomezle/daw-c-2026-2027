@@ -12,8 +12,6 @@ public class EscriuEnUnArray {
 		int k = sc.nextInt();
 		
 		int[] array = new int[k]; // Indiquem que el tamany és k
-
-		int n = sc.nextInt(); // Posició que volem cercar
 		
 		for(int i = 0; i < k; i++) {
 			array[i] = sc.nextInt();
@@ -22,6 +20,8 @@ public class EscriuEnUnArray {
 		for(int i = 0; i < k; i++) {
 			System.out.print(array[i]+" ");
 		}		
+		
+		int n = sc.nextInt(); // Posició que volem cercar
 		
 		System.out.println(array[n]);
 		
