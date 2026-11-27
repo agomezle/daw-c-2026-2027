@@ -52,7 +52,7 @@ public class EstimatsSets {
 		int indice = 0;
 		
 		System.out.println("Recórrer set:");
-		for(Integer n : treeSet) { // Al no tenir index, s'han de recórrer amb un foreach
+		for(int n : treeSet) { // Al no tenir index, s'han de recórrer amb un foreach
 			System.out.print(n+" ");
 			suma += n;
 			indice++;

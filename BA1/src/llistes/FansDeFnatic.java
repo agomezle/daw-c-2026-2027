@@ -19,13 +19,17 @@ public class FansDeFnatic {
 
 			for (int j = 0; j < n; j++) {
 				String[] partido = sc.nextLine().split(" - ");
-				if (!(partido[0].equals("Fnatic") && partido[2].equals("Fnatic"))) {
-					if (partido[0].equals("Fnatic")) {
-						victorias++;
-					} else if (partido[1].equals("Fnatic")) {
-						derrotas++;
-					}
+
+				if(partido[0].equals("Fnatic") && partido[1].equals("Fnatic")) {
+					victorias++;
+					derrotas++;
 				}
+				else if (partido[0].equals("Fnatic")) {
+					victorias++;
+				} else if (partido[1].equals("Fnatic")) {
+					derrotas++;
+				}
+
 			}
 
 			System.out.println(victorias + " " + derrotas);
