@@ -1,6 +1,7 @@
 package llistes;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
@@ -61,6 +62,15 @@ public class EstimatArrayList {
 		// SUBLIST
 		List<Integer> lista = miLista.subList(2, 5);
 		System.out.println(lista);
+		
+		// LLISTA A ARRAY I VICEVERSA
+		ArrayList<String> listStrings = new ArrayList<String>();
+		listStrings.add("hola");
+		listStrings.add("daw");
+		
+		String[] array = miLista.toArray(new String[2]); // Ara tinc un array amb els valors de la llista
+		
+		ArrayList<String> listaNova = (ArrayList<String>) Arrays.asList(array); // Ara tinc una llista amb els valors de l'array
 		
 		/* <------------ COLLECTIONS -----------> */
 		
